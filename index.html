@@ -14,21 +14,24 @@
   </head>
 
   <body>
+  <div class="cursor"><div class = "scroll-txt" ></div></div>
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
+          <div class="scroll-info right"></div>
           <div class = "home page">
       <div class="home_ sec">
         <div class="intro">
       <a>Welcome</a>
       <h1>Universe</h1>
-      <p>The universe is all of space and time and their contents, including planets, stars, galaxies, and all other forms of matter and energy. While the spatial size of the entire universe is unknown, it is possible to measure the size of the observable universe, which is currently estimated to be 93 billion light-years in diameter.</p>
+      <p class = "para">The universe is all of space and time and their contents, including planets, stars, galaxies, and all other forms of matter and energy. While the spatial size of the entire universe is unknown, it is possible to measure the size of the observable universe, which is currently estimated to be 93 billion light-years in diameter.</p>
       </div>
     </div>
       <!-- <img src="images/luis-lara-16RvIF_2McA-unsplash.jpg"> -->
       </div>
         </div>
         <div class="swiper-slide">
+          <div class="scroll-info left"></div>
           <div class = "SUN page">
         <div class="SUN_ sec">
           <div class="intro">
@@ -38,6 +41,7 @@
       </div>
         </div>
         <div class="swiper-slide">
+          <div class="scroll-info right"></div>
           <div class = "mercury page">
         <div class="mercury_ sec">
           <div class="intro">
@@ -47,6 +51,7 @@
       </div>
         </div>
         <div class="swiper-slide">
+          <div class="scroll-info left"></div>
           <div class = "venus page">
         <div class="venus_ sec">
           <div class="intro">
@@ -56,6 +61,7 @@
       </div>
         </div>
         <div class="swiper-slide">
+          <div class="scroll-info right"></div>
           <div class = "earth page">
       <div class="earth_ sec">
         <div class="intro">
@@ -65,6 +71,7 @@
     </div>
         </div>
         <div class="swiper-slide">
+          <div class="scroll-info left"></div>
           <div class = "mars page">
       <div class="mars_ sec">
         <div class="intro">
@@ -75,6 +82,7 @@
         </div>
     
         <div class="swiper-slide">
+          <div class="scroll-info right"></div>
            <div class = "jupiter page">
       <div class="jupiter_ sec">
         <div class="intro">
@@ -84,6 +92,7 @@
     </div>
         </div>
         <div class="swiper-slide">
+          <div class="scroll-info left"></div>
            <div class = "saturn page">
       <div class="saturn_ sec">
         <div class="intro">
@@ -94,6 +103,7 @@
         </div>
 
         <div class="swiper-slide">
+          <div class="scroll-info right"></div>
            <div class = "uranus page">
       <div class="uranus_ sec">
         <div class="intro">
@@ -103,6 +113,7 @@
     </div>
         </div>
    <div class="swiper-slide">
+    <div class="scroll-info left"></div>
      <div class = "neptune page">
       <div class="neptune_ sec">
         <div class="intro">
@@ -115,24 +126,7 @@
     
   <div class="swiper-pagination"></div>
   </div>
-    <!-- Initialize Swiper -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper('.swiper-container', {
-          direction: 'vertical',
-          slidesPerView: 1,
-          spaceBetween: 30,
-          mousewheel: true,
-          pagination: {
-              el: '.swiper-pagination',
-              clickable: true,
-          },
-        keyboard: {
-        enabled: true,
-      },
-      });
-  </script>
-    
-
+    <script src="/app.js"></script>
   </body>
 </html>
