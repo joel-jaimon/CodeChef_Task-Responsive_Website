@@ -2,7 +2,7 @@
  Codechef 2nd Round Task
 <h2>Instruction</h2>
 <li>Open the directory in VS Code.</li>
-<li>Use live server.</li>
+<li>Run live server.</li>
 
 <img src="/dem_img/1.png">
 <img src="/dem_img/2.png">
