@@ -5,6 +5,6 @@
 <li>Run live server.</li>
 
 <h3>Desktop View</h3>
-<img src="/dem_img/1.png">
+<img src="/dem_img/1.PNG">
 <h3>Mobile View</h3>
-<img src="/dem_img/2.png">
+<img src="/dem_img/2.PNG">
