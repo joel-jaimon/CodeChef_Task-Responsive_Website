@@ -1,0 +1,295 @@
+html, body {
+  margin: 0px;
+  background-color: black;
+  color: #f0f0f0;
+  font-size: 1.6vw;
+  font-family: 'Oswald', sans-serif;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-size: 8vw;
+  margin: 0px;
+  border: none;
+}
+
+.page {
+  width: auto;
+  height: 100vh;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+.intro {
+  position: absolute;
+  margin-top: 45vh;
+  width: 50%;
+  height: 20vh;
+}
+
+.sec {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.home {
+  background-image: url(/images/luis-lara-16RvIF_2McA-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home .home_ {
+  text-align: left;
+}
+
+.home .home_ .intro {
+  margin-left: 6%;
+}
+
+.earth {
+  background-image: url(/images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.earth .earth_ {
+  text-align: left;
+}
+
+.earth .earth_ .intro {
+  margin-left: 6%;
+}
+
+.mars {
+  background-image: url(/images/christian-lischka-taz4Xc32UCs-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mars .mars_ {
+  text-align: right;
+}
+
+.mars .mars_ .intro {
+  margin-left: 44%;
+}
+
+.jupiter {
+  background-image: url(/images/253336.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jupiter .jupiter_ {
+  text-align: left;
+}
+
+.jupiter .jupiter_ .intro {
+  margin-left: 6%;
+}
+
+.SUN {
+  background-image: url(/images/wp5129063-sun-in-space-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.SUN .SUN_ {
+  text-align: right;
+}
+
+.SUN .SUN_ .intro {
+  margin-left: 44%;
+}
+
+.mercury {
+  background-image: url(/images/461490.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mercury .mercury_ {
+  text-align: left;
+}
+
+.mercury .mercury_ .intro {
+  margin-left: 6%;
+}
+
+.venus {
+  background-image: url(/images/116939.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.venus .venus_ {
+  text-align: right;
+}
+
+.venus .venus_ .intro {
+  margin-left: 44%;
+}
+
+.saturn {
+  background-image: url(/images/160436.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.saturn .saturn_ {
+  text-align: right;
+}
+
+.saturn .saturn_ .intro {
+  margin-left: 44%;
+}
+
+.uranus {
+  background-image: url(/images/415252.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.uranus .uranus_ {
+  text-align: left;
+}
+
+.uranus .uranus_ .intro {
+  margin-left: 6%;
+}
+
+.neptune {
+  background-image: url(/images/169388.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.neptune .neptune_ {
+  text-align: right;
+}
+
+.neptune .neptune_ .intro {
+  margin-left: 44%;
+}
+
+/*----------------------------------------------------------------------------*/
+@media screen and (max-width: 520px) {
+  html, body {
+    font-size: 3vh;
+  }
+  h1 {
+    font-size: 14vh;
+  }
+  .page {
+    width: auto;
+    height: 100vh;
+    margin: 0 auto;
+    z-index: 0;
+  }
+  .intro {
+    position: absolute;
+    margin-top: 50%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 40vh;
+  }
+  .sec {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+  .home .home_ {
+    text-align: center;
+  }
+  .home .home_ .intro {
+    margin-left: 10%;
+  }
+  .earth .earth_ {
+    text-align: left;
+  }
+  .earth .earth_ .intro {
+    margin-left: 10%;
+  }
+  .mars .mars_ {
+    text-align: right;
+  }
+  .mars .mars_ .intro {
+    margin-left: 10%;
+  }
+  .jupiter .jupiter_ {
+    text-align: left;
+  }
+  .jupiter .jupiter_ .intro {
+    margin-left: 10%;
+  }
+  .SUN .SUN_ {
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .SUN .SUN_ .intro {
+    margin-left: 10%;
+  }
+  .mercury .mercury_ {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .mercury .mercury_ .intro {
+    margin-left: 10%;
+  }
+  .venus .venus_ {
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .venus .venus_ .intro {
+    margin-left: 10%;
+  }
+  .saturn .saturn_ {
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .saturn .saturn_ .intro {
+    margin-left: 10%;
+  }
+  .uranus .uranus_ {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .uranus .uranus_ .intro {
+    margin-left: 10%;
+  }
+  .neptune .neptune_ {
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .neptune .neptune_ .intro {
+    margin-left: 10%;
+  }
+}
+
+.swiper-container {
+  height: 100vh;
+  width: 100vw;
+}
+/*# sourceMappingURL=home.css.map */
